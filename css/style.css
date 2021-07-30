@@ -1,0 +1,164 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    max-width: 100vw;
+    height: 300vh;
+    font-family: 'Karla', sans-serif;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+header{
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+}
+
+.container{
+    max-width: 100vw;
+    height: 80px;
+    margin: 0 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    padding: 25px;
+}
+
+
+#menu{
+    align-self: center;
+}
+
+#menuUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuPagina{
+    color:rgba(255,255,255,.7);
+    font-weight: 700;
+    margin: 0px 15px;
+    font-size: 16px;
+}
+
+/* HERO */
+
+#fondoHero{
+    max-width: 100vw;
+    height: auto;
+    position: fixed;
+    z-index: 0;
+}
+
+.containerSlogan{
+    padding: 15vh 0 0 10vw;
+    position: relative;
+    max-width: 50vw;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 12em;
+}
+
+.articulo{
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;    
+}
+.proyectos{
+    height: 80vh;
+    width: 30vw;
+    background-color: green;
+    margin: 10vh 10vw;
+}
+
+.articulo1{
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+}
+.proyectos1{
+    height: 80vh;
+    width: 30vw;
+    background-color: green;
+    margin: 10vh 10vw;
+}
+.proyectos2{
+    height: 80vh;
+    width: 30vw;
+    background-color: green;
+    margin: -20vh 10vw;
+}
+
+.articulo2{
+    position: relative;
+    max-width: 100vw;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);    
+    display: flex;
+    justify-content: center;  
+    z-index: 100;  
+}
+.containerFrase{
+    width: 80vw;
+    align-self: center;
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+.articulo3{
+    display: block;
+    position: relative;
+    color: rgb(255, 255, 255);  
+    margin: 0px;
+    height: 100vh;
+    z-index: 100; 
+    overflow: hidden;
+}
+
+.segundaHero{
+    margin: -50px 0px 0px 0px;
+    position: absolute;
+    width: 150vw;
+}
+
+.capa{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 101;
+
+}
+
+
+.footerLogo{
+    width: 40vw;
+    padding: 10vh 10vw;
+    position: sticky;
+    top: 20vh;
+    z-index: 1000;
+}
